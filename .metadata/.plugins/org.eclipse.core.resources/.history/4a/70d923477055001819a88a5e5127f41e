@@ -1,0 +1,19 @@
+package Fila;
+:
+public class Main {
+	public static void main(String[] args){
+		FilaEstatica filaestatica = new FilaEstatica(6);
+		filaestatica.add(20,0);
+		filaestatica.add(20,8);
+		filaestatica.add(20,3);
+		filaestatica.add(44,5);
+		filaestatica.add(33,33);
+		filaestatica.add(20,9);
+		filaestatica.show();
+		filaestatica.remove();
+		filaestatica.remove();
+		filaestatica.show();
+		filaestatica.clear();
+		
+	}
+}

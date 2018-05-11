@@ -1,0 +1,12 @@
+package Fila;
+
+public class FilaEstatica implements FilaInterface {
+		private Object[] fila;
+		private int cabeca;
+		private int cauda;
+		
+		public FilaEstatica(int capacidade) {
+		fila = new Object[capacidade];
+		cabeca = cauda -1;
+		}
+}
